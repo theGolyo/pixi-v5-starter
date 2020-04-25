@@ -15,7 +15,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({title: "pixi-starter"})
     ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
